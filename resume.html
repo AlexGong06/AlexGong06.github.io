@@ -11,9 +11,23 @@ permalink: /resume/
     Below you can view or download my professional resume.
   </p>
 
+  <!-- Download Button -->
+  <div class="text-center mt-4">
+    <a class="btn btn-primary" href="{{ '/assets/resume.pdf' | relative_url }}" target="_blank" download>
+      <i class="fa fa-download"></i> Download Resume (PDF)
+    </a>
+  </div>
+
+  <!-- Embedded PDF -->
   <div class="resume-content text-center mt-5">
-    <!-- Placeholder for resume content -->
-    <!-- We'll add the embedded PDF or logic later -->
-    <p><em>Resume coming soon...</em></p>
+    <iframe
+      src="{{ '/assets/files/resume.pdf' | relative_url }}"
+      width="100%"
+      height="900px"
+      style="border: none; box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 8px;"
+    >
+      Your browser does not support PDFs. 
+      <a href="{{ '/assets/resume.pdf' | relative_url }}">Download the PDF</a> instead.
+    </iframe>
   </div>
 </div>
