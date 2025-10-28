@@ -5,6 +5,7 @@ subtitle: A collection of my software engineering work
 tags: [projects, github]
 comments: false
 author: Alex Gong
+social-share: false
 ---
 
 Below is a list of some of my personal projects hosted on GitHub.  
